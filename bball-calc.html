@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bball Efficiency Calc</title>
+    <link rel="stylesheet" type="text/css" href="final.css">
+</head>
+<script type="text/javascript" src="calc.js"></script>
+
+<body>
+
+<h1>Basketball Efficiency Calculator</h1>
+
+<p>Enter your stats from any game and calculate how efficient you were for your team.</p>
+
+<table style="width:100%">
+    <tr>
+        <th><p>Player 1</p></th>
+        <th><p>Player 2</p></th>
+    </tr>
+    <tr>
+        <td>
+            <label for="points">Points</label>
+            <input type="number" id="points" name="quantity" min="0" max="100">
+
+            <br>
+
+            <label for="assists">Assists</label>
+            <input type="number" id="assists" name="quantity" min="0" max="100">
+
+            <br>
+
+            <label for="steals">Steals</label>
+            <input type="number" id="steals" name="quantity" min="0" max="100">
+
+            <br>
+
+            <label for="turnovers">Turnovers</label>
+            <input type="number" id="turnovers" name="quantity" min="0" max="100">
+        </td>
+
+
+
+        <td>
+            <label for="points">Points</label>
+            <input type="number" id="points2" name="quantity" min="0" max="100">
+
+            <br>
+
+            <label for="assists">Assists</label>
+            <input type="number" id="assists2" name="quantity" min="0" max="100">
+
+            <br>
+
+            <label for="steals">Steals</label>
+            <input type="number" id="steals2" name="quantity" min="0" max="100">
+
+            <br>
+
+            <label for="turnovers">Turnovers</label>
+            <input type="number" id="turnovers2" name="quantity" min="0" max="100">
+        </td>
+
+
+    </tr>
+    <tr>
+        <td>
+            <p id="p1">Score</p>
+        </td>
+        <td>
+            <p id="p2">Score</p>
+        </td>
+    </tr>
+</table>
+    <br>
+    <br>
+
+    <button onclick="calculate()"> Calculate Grade</button>
+
+</body>
+</html>
